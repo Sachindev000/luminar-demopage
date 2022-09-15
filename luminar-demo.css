@@ -1,0 +1,77 @@
+#text1 {
+    margin-top: -452px;
+    margin-left: 140px;
+    font-size: 60px;
+    text-align: start;
+}
+
+#para1 {
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    line-height: 28px;
+    max-width: 610px;
+    margin-left: 119px;
+}
+
+#button-1 {
+    color: white;
+    background: rgb(81, 35, 123);
+    border: none;
+    width: 210px;
+    height: 69px;
+    border-radius: 43px;
+    margin-right: 588px;
+}
+
+#button-1:hover {
+    background: rgba(155, 92, 214, 0.907);
+}
+
+#messages {
+    background: transparent;
+    border-bottom: 1px solid #70707045;
+    padding: 0 5px 10px;
+    color: #aaaaaa;
+    margin-bottom: 25px;
+    height: 141px;
+    width: 620px;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+}
+
+#sub {
+    width: 156px;
+    height: 38px;
+    border-radius: 0%;
+    background: rgb(81, 35, 123);
+    border: none;
+    
+}
+
+#spell {
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    height: 61px;
+
+}
+
+#mod-ctn {
+    width: 129%;
+    margin-left: -55px;
+    border-radius: 0px;
+}
+
+#sel {
+    width: 100%;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    height: 61px;
+}
+
+#b2 {
+    background: rgb(81, 35, 123)
+}

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./luminar-demo.css">
+  <link rel="stylesheet" href=" https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+    rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+    crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+    crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/1c3d46be1a.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-light fixed-top">
+    <div class="container ">
+      <a class="navbar-brand " href="#"><img style="width: 260px; height: 87px; margin-left: 90px;"
+          src="./images/lumilogo.jfif" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+          <li class="nav-item ">
+            <a class="nav-link active fs-5 " aria-current="page" href="#" style="color: rgb(127, 17, 139); "><strong><u>
+                  Home</u></strong></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fs-5 text-dark" href="#"> Courses</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fs-5 text-dark" href="#">Placements</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fs-5 text-dark" href="#">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fs-5 text-dark" href="#">About us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fs-5 text-dark" href="#">Contact</a>
+          </li>
+
+      </div>
+    </div>
+  </nav>
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./images/5.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h1 id="text1">Kerala's No.1 IT Finishing Schoolb <br> 100% Placement Assistance</h1>
+          <p id="para1">We at LUMINAR TECHNOLAB offers best software training and placement in <br> emerging
+            technologies like BIG
+            DATA,
+            Data Science, Machine Learning,PYTHON,<br> Software Testing..</p>
+          <button class="btn btn-primary" id="button-1"><strong> View Couress </strong></button>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./images/6.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h1 id="text1">Data Science, ML & AI<br>Big Data - Hadoop& <br>
+            Spark <br> Python Data Science </h1>
+          <p id="para1">We LUMINAR TECHNOLAB offers best software training and placement in <br> emerging technologies
+            like
+            Big Data, Hadoop, Spark,Data Scince, Machine <br> Learning, Deep Learning and AI.</p>
+          <button class="btn btn-primary" id="button-1"> <strong> View Couress </strong></button>
+          
+        </div>
+      </div>
+      
+
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+    
+  </div>
+  <!-- Button trigger modal -->
+  <button type="button" class="btn btn-primary" id="b2" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Click Here
+  </button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content" id="mod-ctn">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Get Training Quote for free</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body" id="main">
+
+          <form action="">
+            <input type="text" name="" id="spell" placeholder="Name" class="form-control">
+            <input type="text" name="" id="spell" placeholder="Email" class="form-control">
+            <input type="text" name="" id="spell" placeholder="Phone Number" class="form-control">
+            <select name="" id="sel">
+              <option value=""> Select Course interested in </option>
+              <option value="">DATA SCIENCE - ML - AI - BIG DATA WITH CLOUD & TABLEAU</option>
+              <option value="">Python Django - Angular- Full Stack Web Development Expert</option>
+              <option value="">Software Testing Specialist</option>
+              <option value="">MEARN Stack Web Development Expert - Angular & React</option>
+              <option value="">Business Analytics - Power BI & Tableau</option>
+              <option value="">Android Developer Expert Training In Kochi- Flutter</option>
+              <option value="">DATA SCIENCE - ML - AI - & TABLEAU</option>
+            </select>
+            <input type="text" name="" id="spell" placeholder="City" class="form-control">
+            <textarea name="" id="messages" cols="10" rows="30" placeholder="Comments"></textarea>
+            <button class="btn btn-primary" id="sub">Submit</button>
+
+          </form>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
